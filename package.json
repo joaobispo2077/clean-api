@@ -4,6 +4,13 @@
   "main": "index.js",
   "author": "João Bispo <joaobispo2077@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "style:check": "prettier --check src/**/*.(ts|js)",
+    "style:fix": "prettier --write src/**/*.(ts|js)",
+    "commit:lint": "lint-staged"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
