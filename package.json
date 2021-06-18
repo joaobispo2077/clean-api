@@ -5,6 +5,7 @@
   "author": "João Bispo <joaobispo2077@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules src/server.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "style:check": "prettier --check src/**/*.(ts|js)",

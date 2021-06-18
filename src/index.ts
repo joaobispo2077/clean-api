@@ -1,3 +1,1 @@
-function name(params: any) {
-  return 'a';
-}
+console.log(`Server is running at port ...`);
